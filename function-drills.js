@@ -18,3 +18,11 @@ function createGreeting(name, age){
     const yearOfBirth=(2019 - age);
     return(yearOfBirth)
 };
+
+function getYourOfBirth (age) {
+    return (2019 - age)
+};
+function createGreeting (name, age){
+    return(`${name} + ${age}`)
+};
+
