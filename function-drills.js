@@ -26,3 +26,9 @@ function createGreeting (name, age){
     return(`${name} + ${age}`)
 };
 
+function yearOfBirth(age) {
+    if(age <= 0);
+    throw new Error("Age cannot be negative");
+    return (age);
+    
+};
