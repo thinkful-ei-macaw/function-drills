@@ -9,3 +9,7 @@ function createGreeting (){
 };
 const greeting1=createGreeting();
 console.log(greeting1);
+
+function createGreeting(name, age){
+    return(`${name} + ${age}`)
+};
