@@ -30,5 +30,14 @@ function yearOfBirth(age) {
     if(age <= 0);
     throw new Error("Age cannot be negative");
     return (age);
-    
-};
+
+}
+try  {
+    const greeting1=createGreeting(name, age);
+    return(`${name}, ${age}`);
+catch (e) {
+   return("Age cannot be negative")
+  };
+  finally {
+    return('This happens in both success and failure case!');
+  };
